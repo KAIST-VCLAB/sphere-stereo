@@ -21,7 +21,6 @@ git clone https://github.com/KAIST-VCLAB/sphere-stereo.git
 cd sphere-stereo
 conda env create -f environment.yml
 conda activate sphere-stereo
-conda install pytorch cudatoolkit=11.1 -c pytorch -y
 ```
 
 ## Demo

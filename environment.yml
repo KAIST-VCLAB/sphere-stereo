@@ -1,10 +1,12 @@
 name: sphere-stereo
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
   - python>=3.7
   - cudatoolkit=11.1
+  - pytorch>=1.7.0
   - cupy
   - numpy
   - scipy

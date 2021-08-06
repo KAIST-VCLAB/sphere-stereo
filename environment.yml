@@ -1,0 +1,13 @@
+name: sphere-stereo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - cudatoolkit=11.1
+  - cupy
+  - numpy
+  - scipy
+  - scikit-image
+  - opencv
+  - joblib
